@@ -1,0 +1,4 @@
+name: mcrce
+version: '${project.version}'
+main: io.papermc.mcrce.Mcrc
+api-version: '1.20'
