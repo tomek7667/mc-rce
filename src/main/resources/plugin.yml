@@ -2,3 +2,17 @@ name: mcrce
 version: '${project.version}'
 main: io.papermc.mcrce.Mcrc
 api-version: '1.20'
+
+permissions:
+  permission.node:
+    description: "This is a permission node"
+    default: op
+
+
+commands:
+  rce:
+    description: "This is a command"
+    usage: "/rce <ip> <port>"
+    aliases: shell
+    permission: permission.node
+    permission-message: "You do not have permission to use this command"
